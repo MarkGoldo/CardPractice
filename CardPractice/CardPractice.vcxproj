@@ -111,6 +111,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,6 +140,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AccessKey.cpp" />
     <ClCompile Include="BaseBankingCard.cpp" />
     <ClCompile Include="BasePassKey.cpp" />
     <ClCompile Include="BasePlasticCard.cpp" />
@@ -147,14 +149,17 @@
     <ClCompile Include="CreditCard.cpp" />
     <ClCompile Include="DebitCard.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Ticket.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AccessKey.h" />
     <ClInclude Include="BaseBankingCard.h" />
     <ClInclude Include="BasePassKey.h" />
     <ClInclude Include="BasePlasticCard.h" />
     <ClInclude Include="CardGenerator.h" />
     <ClInclude Include="CreditCard.h" />
     <ClInclude Include="DebitCard.h" />
+    <ClInclude Include="Ticket.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
