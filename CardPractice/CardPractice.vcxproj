@@ -143,12 +143,16 @@
     <ClCompile Include="BasePlasticCard.cpp" />
     <ClCompile Include="CardGenerator.cpp" />
     <ClCompile Include="CardPractice.cpp" />
+    <ClCompile Include="CreditCard.cpp" />
+    <ClCompile Include="DebitCard.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseBankingCard.h" />
     <ClInclude Include="BasePlasticCard.h" />
     <ClInclude Include="CardGenerator.h" />
+    <ClInclude Include="CreditCard.h" />
+    <ClInclude Include="DebitCard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

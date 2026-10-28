@@ -30,6 +30,12 @@
     <ClCompile Include="BaseBankingCard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DebitCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasePlasticCard.h">
@@ -39,6 +45,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BaseBankingCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebitCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditCard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="CardPractice/CardPractice.vcxproj" />
+  <Project Path="CardPractice/CardPractice.vcxproj" Id="1b617344-ebf1-4e6c-9978-500debb8a62f" />
 </Solution>
